@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_01_01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/text01"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/board"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Type a website name without www. and .dk"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take me to the website"
+            android:textAllCaps="false" />
+
+        <WebView
+            android:id="@+id/webView01"
+            android:layout_width="409dp"
+            android:layout_height="729dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

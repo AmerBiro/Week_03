@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Week_03</string>
+    <string name="textViewPage00">MAIN MENU</string>
+    <string name="buttonGoToPage_01">Page 01</string>
+    <string name="buttonGoToPage_02">Page 02</string>
+    <string name="buttonGoToPage_03">Page 03</string>
+    <string name="buttonGoToPage_04">Page 04</string>
+    <string name="buttonGoToPage_05">Page 05</string>
+
+    <string name="textViewPage01">Page 01</string>
+    <string name="textViewPage02">Page 02</string>
+    <string name="textViewPage03">Page 03</string>
+    <string name="textViewPage04">Page 04</string>
+    <string name="textViewPage05">Page 05</string>
+
+    <string name="page_01_button01">Click me</string>
+    <string name="page_01_text01">Try to click on the above button</string>
+    <string name="page_01_button02">Hide</string>
+    <string name="textViewMainPage">Welcome to android app developing</string>
+    <string name="buttonGoToMainPage">Click here to get started</string>
+    <string name="buttonGoToPage_01_01">Next exercise</string>
+</resources>
